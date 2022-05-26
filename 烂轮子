@@ -1,0 +1,6 @@
+ // 1.判断字符串是否为空,空字符串,空格
+ public static bool IsNullOrEmptyOrWhiteSpace(this string input)
+     {
+        return String.IsNullOrEmpty(input) || input.All(char.IsWhiteSpace);
+     }
+ 
